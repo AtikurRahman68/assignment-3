@@ -27,7 +27,7 @@
 <body>
   <header class="container">
     <!-- navber start -->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top bg-light">
       <div class="container-fluid">
         <a class="navbar-brand fw-bold" href="#">Edu Care</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -40,19 +40,19 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Courses</a>
+              <a class="nav-link" href="#course">Courses</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Deals</a>
+              <a class="nav-link" href="#deal">Deals</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Success</a>
+              <a class="nav-link" href="#success">Success</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="#contact">Contact Us</a>
             </li>
           </ul>
           <button class="btn btn-outline-light text-end fw-bold bg-primary" type="submit">Register</button>
@@ -122,7 +122,7 @@
   <!-- main start -->
   <main class="container">
     <div class="container pt-5 d-flex flex-column justify-content-center align-items-center text-center">
-      <h1 class="fw-bold">Discover Our Popular <br>
+      <h1 class="fw-bold" id="course">Discover Our Popular <br>
         Courses</h1>
       <p>It is a long established fact that a reader will be distracted by the readable <br>
         content of a page when looking at its layout.</p>
@@ -208,7 +208,7 @@
         </div>
         <div class="col-md-8 d-flex align-items-center justify-content-center">
           <div class="card-body">
-            <h1 class="fw-bold">Explore The elearning
+            <h1 class="fw-bold" id="deal">Explore The elearning
               Institute</h1>
             <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the
               majority have suffered alteration in some form, by injected humour, or
@@ -240,7 +240,7 @@
     <!-- modal section -->
     <div class="container border bg-info p-5 mt-5 d-flex flex-row justify-content-between">
       <div>
-        <h3 class="fw-bold text-light">Ready to Join?</h3>
+        <h3 class="fw-bold text-light" id="success">Ready to Join?</h3>
         <p class="text-light">It is a long established fact that a reader will be distracted by the <br>
           readable content of a page when looking at its layout</p>
       </div>
@@ -273,7 +273,7 @@
     <!-- ques and answer section -->
     <section class="d-flex flex-column justify-content-center align-items-center">
      <div class="mt-5 text-center">
-       <h1 class="fw-bolder">Frequently Asked Question</h1>
+       <h1 class="fw-bolder" id="about">Frequently Asked Question</h1>
        <p>It is a long established fact that a reader will be distracted by the readable <br>
         content of a page when looking at its layout</p>
      </div>
@@ -351,7 +351,7 @@
   <!-- main end -->
 
 <!-- footer -->
-<footer class="bg-dark text-light pt-3 pb-3 mt-5 text-center">
+<footer class="bg-dark text-light pt-3 pb-3 mt-5 text-center" id="contact">
    <div>
      <h2>Edu Care</h2>
      <p class="text-info">Office 41, Zawaya Buildin, Ghala Muscat, <br>
